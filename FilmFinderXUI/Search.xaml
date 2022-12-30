@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FilmFinderXUI.Search"
+             Title="Search">
+    <VerticalStackLayout>
+         <SearchBar Placeholder="Search" Margin="0" VerticalOptions="Start" BackgroundColor="#8bd6f2" PlaceholderColor="#000000" TextColor="#090909" CancelButtonColor="#0D0C0C" />
+        <Image Aspect="Center" FlexLayout.AlignSelf="Center" Source="dotnet_bot.png"  FlexLayout.Basis="Auto" HorizontalOptions="Center" Margin="-110,0,0,0" />
+      
+    </VerticalStackLayout>
+</ContentPage>

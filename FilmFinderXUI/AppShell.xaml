@@ -4,12 +4,53 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:FilmFinderXUI"
-    Shell.FlyoutBehavior="Disabled">
+    BackgroundColor="#8bd6f2" Shell.NavBarIsVisible="True">
 
     <ShellContent
-        Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Route="MainPage" Title="Home" />
+
+    <!--<TabBar>
+        <Tab Title="Cats"
+            Icon="dotnet_bot.svg">
+            <ShellContent
+                ContentTemplate="{DataTemplate local:MainPage}">
+            </ShellContent>        
+        </Tab>
+        <Tab Title="Dogs"
+            Icon="dotnet_bot.svg">
+            <ShellContent
+                ContentTemplate="{DataTemplate local:MainPage}">
+            </ShellContent>        
+        </Tab>
+    </TabBar>-->
+     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <Tab Title="Domestic"
+             Icon="paw.png">
+            <ShellContent Title="Cats"
+                          Icon="dotnet_bot.png"
+                          ContentTemplate="{DataTemplate local:MainPage}" />
+            <ShellContent Title="Dogs"
+                          Icon="ddotnet_bot.png"
+                          ContentTemplate="{DataTemplate local:MainPage}" />
+        </Tab>
+        <!--
+        Shell has implicit conversion operators that enable the Shell visual hierarchy to be simplified.
+        This is possible because a subclassed Shell object can only ever contain a FlyoutItem object or a TabBar object,
+        which can only ever contain Tab objects, which can only ever contain ShellContent objects.
+
+        The implicit conversion automatically wraps the ShellContent objects below in Tab objects.
+        -->
+        <ShellContent Title="Monkeys"
+                      Icon="ddotnet_bot.png"
+                      ContentTemplate="{DataTemplate local:MainPage}" />
+        <ShellContent Title="Elephants"
+                      Icon="ddotnet_bot.png"
+                      ContentTemplate="{DataTemplate local:MainPage}" />
+        <ShellContent Title="Bears"
+                      Icon="ddotnet_bot.png"
+                      ContentTemplate="{DataTemplate local:MainPage}" />
+    </FlyoutItem>
 
 </Shell>
 
