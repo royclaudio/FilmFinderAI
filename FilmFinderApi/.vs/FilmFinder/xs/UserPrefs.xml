@@ -1,6 +1,30 @@
 ﻿<Properties StartupConfiguration="{2CB3934A-A0CC-4DAA-AC07-BE551DF88AF0}|https">
   <MonoDevelop.Ide.ItemProperties.FilmFinderXUI FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.FilmFinderApi FirstBuild="True" PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.ItemProperties.FilmFinderUI FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FilmFinderApi PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../FilmFinderXUI/MainPage.xaml">
+    <Files>
+      <File FileName="../FilmFinderUI/Pages/Index.razor" />
+      <File FileName="../FilmFinderXUI/MainPage.xaml.cs" />
+      <File FileName="../FilmFinderXUI/MainPage.xaml" Line="33" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FilmFinder" expanded="True">
+            <Node name="FilmFinderApi" expanded="True" />
+            <Node name="FilmFinderUI" expanded="True">
+              <Node name="Pages" expanded="True" />
+            </Node>
+            <Node name="FilmFinderXUI" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
