@@ -3,7 +3,7 @@
     public class MovieModel
     {
         // product matrix
-        public int Id { get; set; }
+        public int MovieId { get; set; }
         public string? Title { get; set; }
         public string? Box_office { get; set; }
         public string? Director { get; set; }
@@ -24,6 +24,7 @@
         public string? Rated { get; set; }
         public string? Released { get; set; }
         public string? image_file { get; set; }
+
         public int Musical { get; set; }
         public int Family { get; set; }
         public int Reality_TV { get; set; }
@@ -50,8 +51,8 @@
         public int Drama { get; set; }
         public int Two_Thousand { get; set; }
         public int Nineties { get; set; }
-        public int twenty_tens { get; set; }
-        public int eighties { get; set; }
+        public int Twenty_tens { get; set; }
+        public int Eighties { get; set; }
         public int NOT_RATED { get; set; }
         public int Rated_G { get; set; }
         public int PASSED { get; set; }
