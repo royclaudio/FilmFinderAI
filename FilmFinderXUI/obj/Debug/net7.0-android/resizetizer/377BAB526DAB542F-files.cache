@@ -4,12 +4,15 @@ obj/Debug/net7.0-android/resizetizer/r/mipmap-mdpi/appicon_background.png
 obj/Debug/net7.0-android/resizetizer/r/mipmap-hdpi/appicon_foreground.png
 obj/Debug/net7.0-android/resizetizer/r/mipmap-hdpi/appicon.png
 obj/Debug/net7.0-android/resizetizer/r/mipmap-hdpi/appicon_background.png
+obj/Debug/net7.0-android/resizetizer/r/drawable/movie.png
 obj/Debug/net7.0-android/resizetizer/r/drawable/settings.png
 obj/Debug/net7.0-android/resizetizer/r/drawable/home.png
 obj/Debug/net7.0-android/resizetizer/r/drawable/user.png
+obj/Debug/net7.0-android/resizetizer/r/drawable/like.png
 obj/Debug/net7.0-android/resizetizer/r/drawable/search.png
 obj/Debug/net7.0-android/resizetizer/r/drawable/calendar.png
 obj/Debug/net7.0-android/resizetizer/r/drawable/quality.png
+obj/Debug/net7.0-android/resizetizer/r/drawable/showlove.png
 obj/Debug/net7.0-android/resizetizer/r/mipmap-xxxhdpi/appicon_foreground.png
 obj/Debug/net7.0-android/resizetizer/r/mipmap-xxxhdpi/appicon.png
 obj/Debug/net7.0-android/resizetizer/r/mipmap-xxxhdpi/appicon_background.png

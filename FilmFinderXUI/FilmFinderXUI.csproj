@@ -63,12 +63,4 @@
 	    <SubType></SubType>
 	  </MauiXaml>
 	</ItemGroup>
-	
-	<ItemGroup>
-	  <None Remove="Resources\Images\calendar.png" />
-	</ItemGroup>
-	<ItemGroup>
-	  <BundleResource Include="**/*" />
-	  <BundleResource Include="Resources\Images\*" />
-	</ItemGroup>
 </Project>

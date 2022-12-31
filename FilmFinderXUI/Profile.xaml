@@ -3,78 +3,76 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FilmFinderXUI.Profile" BackgroundColor="#8bd6f2"
              Title="Profile">
-   
-    <Grid RowDefinitions="Auto,*" Margin="5,0">
 
-        <Border Stroke="black"
+    <Grid RowDefinitions="Auto,*" Margin="5,0">
+        <Border Grid.Row="0" Stroke="#8bd6f2"
         StrokeThickness="4"
         StrokeShape="RoundRectangle 0,0,0,0"
-        Padding="16,0">
-            <Grid RowDefinitions="Auto,Auto,20,Auto" ColumnDefinitions="*,*">
-                <HorizontalStackLayout>
-                    <Label Text="Demo User" FontAttributes="Bold" FontSize="Header" Grid.Row="0" Grid.Column="0" VerticalOptions="End" HorizontalOptions="Start"/>
-                </HorizontalStackLayout>
-                <ImageButton Source="settings.png" Grid.Row="0" Grid.Column="1" MinimumHeightRequest="25" MaximumHeightRequest="25" HorizontalOptions="End"/>
+        Padding="0,0">
+            <Grid RowDefinitions="Auto,Auto,Auto,Auto,2" ColumnDefinitions="*,*,*">
+                <Label Text="Username" FontAttributes="Bold" FontSize="Header" Grid.Row="0" Grid.Column="0" VerticalOptions="End" HorizontalOptions="Start"/>
+                <Button ImageSource="settings.png" Grid.Row="0" Grid.Column="3" BorderColor="#8bd6f2" BorderWidth="2" FontAttributes="Bold,Italic"  BackgroundColor="#8BD6F2" HorizontalOptions="End" VerticalOptions="End" />
+
                 <HorizontalStackLayout Grid.Row="1">
                     <Image Source="calendar.png" Margin="0,0,3,0"></Image>
                     <Label Text="Joined January 2022" FontAttributes="Bold" FontSize="10"/>
                 </HorizontalStackLayout >
-                <BoxView Color="Black" Grid.Row="2" Grid.ColumnSpan="2" HeightRequest="2" HorizontalOptions="Fill" />
+                <HorizontalStackLayout Grid.Row="2">
+                    <Label Text="10 " FontSize="13"></Label>
+                    <Label Text="Liked" FontAttributes="Bold" FontSize="12" VerticalOptions="Center"/>
+                </HorizontalStackLayout >
+                <HorizontalStackLayout Grid.Row="2" Grid.Column="1">
+                    <Label Text="10 " FontSize="13"></Label>
+                    <Label Text="Disliked" FontAttributes="Bold" FontSize="12" VerticalOptions="Center"/>
+                </HorizontalStackLayout >
 
-                <HorizontalStackLayout Grid.Row="3" HorizontalOptions="StartAndExpand" >
-                    <Grid Grid.Row="3">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*" />
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition />
-                            <ColumnDefinition />
-                            <ColumnDefinition />
-                        </Grid.ColumnDefinitions>
-                        <BoxView Grid.Column="0" Color="#8bd6f2" />
-                        <Button  Grid.Column="0" Text="Liked" HorizontalOptions="Fill" BorderColor="#000000" BorderWidth="2" FontAttributes="Bold,Italic" Margin="0,3,0,-3" BackgroundColor="#8BD6F2" TextColor="#000000" />
-                        <BoxView Grid.Column="1" Color="#8bd6f2" />
-                        <Button  Grid.Column="1" Text="Interested" HorizontalOptions="Fill" BorderColor="#000000" BorderWidth="2" FontAttributes="Bold,Italic" Margin="0,3,0,-3" BackgroundColor="#8BD6F2" TextColor="#000000" />
-                        <BoxView Grid.Column="2" Color="#8bd6f2" />
-                        <Button  Grid.Column="2" Text="History" HorizontalOptions="Fill" BorderColor="#000000" BorderWidth="2" FontAttributes="Bold,Italic" Margin="0,3,0,-3" BackgroundColor="#8BD6F2" TextColor="#000000"  />
-                    </Grid>
-                </HorizontalStackLayout>
+                <Button Text="Liked" ImageSource="like.png" ContentLayout="Top" Grid.Row="3" Grid.Column="0"  BorderColor="#8bd6f2" BorderWidth="2" FontAttributes="Bold,Italic"  BackgroundColor="#8BD6F2" TextColor="#000000" />
+                <Button Text="Interested" ImageSource="showlove.png" ContentLayout="Top" Grid.Row="3" Grid.Column="1"  BorderColor="#8bd6f2" BorderWidth="2" FontAttributes="Bold,Italic"  BackgroundColor="#8BD6F2" TextColor="#000000" />
+                <Button Text="History" ImageSource="movie.png" ContentLayout="Top" Grid.Row="3" Grid.Column="2"  BorderColor="#8bd6f2" BorderWidth="2" FontAttributes="Bold,Italic" BackgroundColor="#8BD6F2" TextColor="#000000" />
 
 
+                <BoxView Color="Black" Grid.Row="4" Grid.ColumnSpan="3" HeightRequest="2" HorizontalOptions="Fill" />
             </Grid>
         </Border>
 
-        <ScrollView x:Name="scrollView"
-                    Grid.Row="1"
-                    VerticalOptions="FillAndExpand"
-                     >
+        <ScrollView x:Name="scrollView" VerticalOptions="FillAndExpand"
+                    Grid.Row="1" >
             <StackLayout>
-
-                <Image>
-                    <Image.Source>
-                        <UriImageSource Uri="https://aka.ms/campus.jpg"
+                <Border Stroke="black"
+                    StrokeThickness="4"
+                    StrokeShape="RoundRectangle 0,0,0,0"
+                    Background="white" >
+                    <Grid RowDefinitions="*" ColumnDefinitions="*,*">
+                        <Border Stroke="white"
+                                StrokeThickness="2"
+                                StrokeShape="RoundRectangle 0,0,0,0"
+                                Background="white"
+                                MinimumHeightRequest="200" MaximumHeightRequest="200" >
+                            <Image>
+                                <Image.Source>
+                                    <UriImageSource Uri="https://i.ebayimg.com/images/g/a2wAAOxyP4dTeYQ7/s-l1600.jpg"
                         CacheValidity="10:00:00:00" />
-                    </Image.Source>
-                </Image>
-                <Image>
-                    <Image.Source>
-                        <UriImageSource Uri="https://aka.ms/campus.jpg"
-                        CacheValidity="10:00:00:00" />
-                    </Image.Source>
-                </Image>
-                <Image>
-                    <Image.Source>
-                        <UriImageSource Uri="https://aka.ms/campus.jpg"
-                        CacheValidity="10:00:00:00" />
-                    </Image.Source>
-                </Image>
-                <Image>
-                    <Image.Source>
-                        <UriImageSource Uri="https://aka.ms/campus.jpg"
-                        CacheValidity="10:00:00:00" />
-                    </Image.Source>
-                </Image>
-
+                                </Image.Source>
+                            </Image>
+                        </Border>
+                        <VerticalStackLayout Grid.Column="1">
+                            <Label Text="Spider-Man" FontAttributes="Bold" FontSize="Header" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
+                            <BoxView Color="Black" HeightRequest="2" HorizontalOptions="Fill" />
+                            <Label Text="Action, Adventure" FontAttributes="Bold" FontSize="Small" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
+                            <Border Stroke="black"
+                                StrokeThickness="2"
+                                StrokeShape="RoundRectangle 10,10,10,10"
+                                Background="#8bd6f2" VerticalOptions="End" >
+                                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="*,Auto">
+                                    <Label Text="Movie Info Details Details Details Details Details Details Details Details Details Details Details Details" Grid.Row="0" Grid.ColumnSpan="2"/>
+                                    <Button Text="Liked" ImageSource="like.png" Grid.Row="1" Grid.Column="0" ContentLayout="Top" BorderColor="#8bd6f2" BorderWidth="2" FontAttributes="Bold,Italic"  BackgroundColor="#8BD6F2" TextColor="#000000" />
+                                    <Button Text="Dislike" ImageSource="showlove.png" Grid.Row="1" Grid.Column="1"  ContentLayout="Top"  BorderColor="#8bd6f2" BorderWidth="2" FontAttributes="Bold,Italic"  BackgroundColor="#8BD6F2" TextColor="#000000" />
+                                </Grid>
+                            </Border>
+                            <!--<Label Text="Released 03 may 2022" FontAttributes="Bold" FontSize="Small" Grid.ColumnSpan="2" HorizontalOptions="Center"/>-->
+                        </VerticalStackLayout>
+                    </Grid>
+                </Border>
             </StackLayout>
         </ScrollView>
     </Grid>

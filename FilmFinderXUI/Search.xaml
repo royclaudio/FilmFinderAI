@@ -9,33 +9,33 @@
                     Grid.Row="1"
                     VerticalOptions="FillAndExpand"
                     Scrolled="OnScrollViewScrolled" >
-            <StackLayout>
+             <StackLayout>
+                <Border Stroke="black"
+                    StrokeThickness="4"
+                    StrokeShape="RoundRectangle 0,0,0,0"
+                    Background="#8bd6f2">
+                    <Grid RowDefinitions="Auto" ColumnDefinitions="*,*">
+                         <Border Stroke="white"
+                                StrokeThickness="2"
+                                StrokeShape="RoundRectangle 0,0,0,0"
+                                Background="white"
+                                MinimumHeightRequest="200" MaximumHeightRequest="200" >
+                            <Image>
+                                <Image.Source>
+                                    <UriImageSource Uri="https://i.ebayimg.com/images/g/a2wAAOxyP4dTeYQ7/s-l1600.jpg"
+                        CacheValidity="10:00:00:00" />
+                                </Image.Source>
+                            </Image>
+                        </Border>
+                        <VerticalStackLayout Grid.Column="1">
+                            <Label Text="Spider-Man" FontAttributes="Bold" FontSize="Header" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
+                            <BoxView Color="Black" HeightRequest="2" HorizontalOptions="Fill" />
 
-                <Image>
-                    <Image.Source>
-                        <UriImageSource Uri="https://aka.ms/campus.jpg"
-                        CacheValidity="10:00:00:00" />
-                    </Image.Source>
-                </Image>
-                <Image>
-                    <Image.Source>
-                        <UriImageSource Uri="https://aka.ms/campus.jpg"
-                        CacheValidity="10:00:00:00" />
-                    </Image.Source>
-                </Image>
-                <Image>
-                    <Image.Source>
-                        <UriImageSource Uri="https://aka.ms/campus.jpg"
-                        CacheValidity="10:00:00:00" />
-                    </Image.Source>
-                </Image>
-                <Image>
-                    <Image.Source>
-                        <UriImageSource Uri="https://aka.ms/campus.jpg"
-                        CacheValidity="10:00:00:00" />
-                    </Image.Source>
-                </Image>
-
+                            <Label Text="Action, Adventure" FontAttributes="Bold" FontSize="Small" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
+                            <Label Text="Released 03 may 2022" FontAttributes="Bold" FontSize="Small" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
+                        </VerticalStackLayout>
+                    </Grid>
+                </Border>
             </StackLayout>
         </ScrollView>
     </Grid>

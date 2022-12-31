@@ -32,9 +32,12 @@
 /Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-android/resizetizer/r/drawable-xxxhdpi/splash.png
 /Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-android/resizetizer/r/drawable/calendar.png
 /Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-android/resizetizer/r/drawable/home.png
+/Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-android/resizetizer/r/drawable/like.png
+/Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-android/resizetizer/r/drawable/movie.png
 /Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-android/resizetizer/r/drawable/quality.png
 /Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-android/resizetizer/r/drawable/search.png
 /Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-android/resizetizer/r/drawable/settings.png
+/Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-android/resizetizer/r/drawable/showlove.png
 /Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-android/resizetizer/r/drawable/user.png
 /Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-android/resizetizer/r/mipmap-anydpi-v26/appicon.xml
 /Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-android/resizetizer/r/mipmap-anydpi-v26/appicon_round.xml

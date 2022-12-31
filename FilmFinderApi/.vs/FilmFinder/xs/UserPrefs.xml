@@ -1,39 +1,26 @@
 ﻿<Properties StartupConfiguration="{424544D2-B740-4641-9DF6-06D765F79CBA}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B5BF0DD7-3553-4F9F-BFF7-FE90D49B765C" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.FilmFinderApi PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="../FilmFinderXUI/Profile.xaml">
     <Files>
-      <File FileName="../FilmFinderXUI/Search.xaml.cs" Line="14" Column="4" />
-      <File FileName="../FilmFinderXUI/Search.xaml" Line="13" Column="1" />
-      <File FileName="../FilmFinderXUI/Profile.xaml" Line="6" Column="4" />
-      <File FileName="../FilmFinderXUI/Recommended.xaml" Line="12" Column="1" />
-      <File FileName="../FilmFinderXUI/MainPage.xaml" Line="35" Column="1" />
-      <File FileName="../FilmFinderXUI/FilmFinderXUI.csproj" Line="1" Column="1" />
-      <File FileName="../FilmFinderXUI/Platforms/iOS/Program.cs" Line="17" Column="1" />
+      <File FileName="../FilmFinderXUI/Profile.xaml" Line="65" Column="59" />
+      <File FileName="../FilmFinderXUI/Search.xaml" Line="18" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FilmFinder" expanded="True">
-            <Node name="FilmFinderXUI" expanded="True">
-              <Node name="Platforms" expanded="True">
-                <Node name="iOS" expanded="True" />
-              </Node>
-              <Node name="Resources" expanded="True">
-                <Node name="Images" expanded="True" />
-              </Node>
-              <Node name="Search.xaml" expanded="True" />
-            </Node>
+            <Node name="FilmFinderXUI" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.FilmFinderXUI PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B5BF0DD7-3553-4F9F-BFF7-FE90D49B765C" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FilmFinderXUI PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B5BF0DD7-3553-4F9F-BFF7-FE90D49B765C" />
+  <MonoDevelop.Ide.ItemProperties.FilmFinderApi PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B5BF0DD7-3553-4F9F-BFF7-FE90D49B765C" />
 </Properties>
