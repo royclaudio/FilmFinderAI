@@ -5,6 +5,16 @@
              x:Class="FilmFinderXUI.App" >
     <Application.Resources>
         <ResourceDictionary>
+            <Style TargetType="TabBar">
+                <Setter Property="Shell.TabBarBackgroundColor"
+            Value="#8bd6f2" />
+                <Setter Property="Shell.TabBarForegroundColor"
+            Value="blue" />
+                <Setter Property="Shell.TabBarTitleColor"
+            Value="Black" />
+                <Setter Property="Shell.TabBarUnselectedColor"
+            Value="Black" />
+            </Style>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />

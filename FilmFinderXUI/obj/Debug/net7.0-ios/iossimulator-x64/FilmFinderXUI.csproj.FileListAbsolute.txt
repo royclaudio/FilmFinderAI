@@ -237,6 +237,11 @@
 /Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/dotnet_bot.png
 /Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/dotnet_bot@2x.png
 /Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/dotnet_bot@3x.png
+/Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/Resources/home.png
+/Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/Resources/quality.png
+/Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/Resources/search.png
+/Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/Resources/settings.png
+/Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/Resources/user.png
 /Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/splash.png
 /Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/splash@2x.png
 /Users/royclaudio/Desktop/FilmFinder/FilmFinderAI/FilmFinderXUI/obj/Debug/net7.0-ios/iossimulator-x64/resizetizer/r/splash@3x.png

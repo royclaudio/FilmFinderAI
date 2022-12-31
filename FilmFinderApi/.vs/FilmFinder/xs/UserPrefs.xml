@@ -1,30 +1,32 @@
-﻿<Properties StartupConfiguration="{2CB3934A-A0CC-4DAA-AC07-BE551DF88AF0}|https">
-  <MonoDevelop.Ide.ItemProperties.FilmFinderXUI FirstBuild="True" />
+﻿<Properties StartupConfiguration="{424544D2-B740-4641-9DF6-06D765F79CBA}|Default">
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.FilmFinderApi PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../FilmFinderXUI/MainPage.xaml">
-    <Files>
-      <File FileName="../FilmFinderUI/Pages/Index.razor" />
-      <File FileName="../FilmFinderXUI/MainPage.xaml.cs" />
-      <File FileName="../FilmFinderXUI/MainPage.xaml" Line="33" Column="14" />
-    </Files>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B5BF0DD7-3553-4F9F-BFF7-FE90D49B765C" />
+  <MonoDevelop.Ide.ItemProperties.FilmFinderXUI PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B5BF0DD7-3553-4F9F-BFF7-FE90D49B765C" />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FilmFinder" expanded="True">
-            <Node name="FilmFinderApi" expanded="True" />
-            <Node name="FilmFinderUI" expanded="True">
-              <Node name="Pages" expanded="True" />
+            <Node name="FilmFinderXUI" expanded="True">
+              <Node name="Platforms" expanded="True">
+                <Node name="Android" expanded="True">
+                  <Node name="Resources" expanded="True">
+                    <Node name="values" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="iOS" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
             </Node>
-            <Node name="FilmFinderXUI" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
