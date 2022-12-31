@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FilmFinderXUI.Search" BackgroundColor="#8bd6f2"
+             Title="Search">
+    <Grid RowDefinitions="Auto,*">
+        <SearchBar Placeholder="Search" FontSize="14"  Margin="0" VerticalOptions="Start" BackgroundColor="#8bd6f2" PlaceholderColor="#000000" TextColor="#090909" CancelButtonColor="#0D0C0C" />
+        <ScrollView x:Name="scrollView"
+                    Grid.Row="1"
+                    VerticalOptions="FillAndExpand"
+                    Scrolled="OnScrollViewScrolled" >
+            <StackLayout>
+                <Label Text="FOR the most wild, yet most homely narrative which I am about to pen, I neither expect nor solicit belief. Mad indeed would I be to expect it, in a case where my very senses reject their own evidence. Yet, mad am I not -- and very surely do I not dream. But to-morrow I die, and to-day I would unburthen my soul. My immediate purpose is to place before the world, plainly, succinctly, and without comment, a series of mere household events. In their consequences, these events have terrified -- have tortured -- have destroyed me. Yet I will not attempt to expound them. To me, they have presented little but Horror -- to many they will seem less terrible than barroques. Hereafter, perhaps, some intellect may be found which will reduce my phantasm to the common-place -- some intellect more calm, more logical, and far less excitable than my own, which will perceive, in the circumstances I detail with awe, nothing more than an ordinary succession of very natural causes and effects." />
+
+                <Image>
+                    <Image.Source>
+                        <UriImageSource Uri="https://aka.ms/campus.jpg"
+                        CacheValidity="10:00:00:00" />
+                    </Image.Source>
+                </Image>
+                <Image>
+                    <Image.Source>
+                        <UriImageSource Uri="https://aka.ms/campus.jpg"
+                        CacheValidity="10:00:00:00" />
+                    </Image.Source>
+                </Image>
+                <Image>
+                    <Image.Source>
+                        <UriImageSource Uri="https://aka.ms/campus.jpg"
+                        CacheValidity="10:00:00:00" />
+                    </Image.Source>
+                </Image>
+                <Image>
+                    <Image.Source>
+                        <UriImageSource Uri="https://aka.ms/campus.jpg"
+                        CacheValidity="10:00:00:00" />
+                    </Image.Source>
+                </Image>
+
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

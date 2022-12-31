@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FilmFinderXUI.Profile" BackgroundColor="#8bd6f2"
+             Title="Profile">
+
+    <Grid RowDefinitions="Auto,*" Margin="5,0">
+
+        <Border Stroke="black"
+        StrokeThickness="4"
+        StrokeShape="RoundRectangle 0,0,0,0"
+        Padding="16,0">
+            <Grid RowDefinitions="Auto,Auto,20,Auto" ColumnDefinitions="*,*">
+                <HorizontalStackLayout>
+                    <Label Text="Demo User" FontAttributes="Bold" FontSize="Header" Grid.Row="0" Grid.Column="0" VerticalOptions="End" HorizontalOptions="Start"/>
+                </HorizontalStackLayout>
+                <ImageButton Source="settings.png" Grid.Row="0" Grid.Column="1" MinimumHeightRequest="25" MaximumHeightRequest="25" HorizontalOptions="End"/>
+                <HorizontalStackLayout Grid.Row="1">
+                    <Image Source="calendar.png" Margin="0,0,3,0"></Image>
+                    <Label Text="Joined January 2022" FontAttributes="Bold" FontSize="10"/>
+                </HorizontalStackLayout >
+                <HorizontalStackLayout Grid.Row="3" Grid.ColumnSpan="2">
+                    <Grid ColumnDefinitions="Auto,Auto,Auto">
+                        <Button  Grid.Column="0" Text="Liked" HorizontalOptions="StartAndExpand" BorderColor="#000000" BorderWidth="2" FontAttributes="Bold,Italic" Margin="0,3,0,-3" BackgroundColor="#8BD6F2" TextColor="#000000" />
+                        <Button  Grid.Column="1" Text="Interested" HorizontalOptions="CenterAndExpand" BorderColor="#000000" BorderWidth="2" FontAttributes="Bold,Italic" Margin="0,3,0,-3" BackgroundColor="#8BD6F2" TextColor="#000000"  />
+                        <Button  Grid.Column="2" Text="History" HorizontalOptions="EndAndExpand" BorderColor="#000000" BorderWidth="2" FontAttributes="Bold,Italic" Margin="0,3,0,-3" BackgroundColor="#8BD6F2" TextColor="#000000"  />
+                    </Grid>
+                </HorizontalStackLayout>
+
+
+            </Grid>
+        </Border>
+
+        <ScrollView x:Name="scrollView"
+                    Grid.Row="1"
+                    VerticalOptions="FillAndExpand"
+                     >
+            <StackLayout>
+                <Label Text="FOR the most wild, yet most homely narrative which I am about to pen, I neither expect nor solicit belief. Mad indeed would I be to expect it, in a case where my very senses reject their own evidence. Yet, mad am I not -- and very surely do I not dream. But to-morrow I die, and to-day I would unburthen my soul. My immediate purpose is to place before the world, plainly, succinctly, and without comment, a series of mere household events. In their consequences, these events have terrified -- have tortured -- have destroyed me. Yet I will not attempt to expound them. To me, they have presented little but Horror -- to many they will seem less terrible than barroques. Hereafter, perhaps, some intellect may be found which will reduce my phantasm to the common-place -- some intellect more calm, more logical, and far less excitable than my own, which will perceive, in the circumstances I detail with awe, nothing more than an ordinary succession of very natural causes and effects." />
+
+                <Image>
+                    <Image.Source>
+                        <UriImageSource Uri="https://aka.ms/campus.jpg"
+                        CacheValidity="10:00:00:00" />
+                    </Image.Source>
+                </Image>
+                <Image>
+                    <Image.Source>
+                        <UriImageSource Uri="https://aka.ms/campus.jpg"
+                        CacheValidity="10:00:00:00" />
+                    </Image.Source>
+                </Image>
+                <Image>
+                    <Image.Source>
+                        <UriImageSource Uri="https://aka.ms/campus.jpg"
+                        CacheValidity="10:00:00:00" />
+                    </Image.Source>
+                </Image>
+                <Image>
+                    <Image.Source>
+                        <UriImageSource Uri="https://aka.ms/campus.jpg"
+                        CacheValidity="10:00:00:00" />
+                    </Image.Source>
+                </Image>
+
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>
+
+
