@@ -4,7 +4,7 @@
              x:Class="FilmFinderXUI.Profile" BackgroundColor="#8bd6f2"
              Title="Profile">
 
-    <Grid RowDefinitions="Auto,*" Margin="5,0">
+    <Grid RowDefinitions="Auto,*,Auto" Margin="5,0">
         <Border Grid.Row="0" Stroke="#8bd6f2" BackgroundColor="#8bd6f2"
         StrokeThickness="4"
         StrokeShape="RoundRectangle 0,0,0,0"
@@ -39,19 +39,14 @@
                     Grid.Row="1" >
             <StackLayout>
                 <Border Stroke="black"
-                    StrokeThickness="4"
-                    StrokeShape="RoundRectangle 0,0,0,0"
-                    Background="white" >
-                    <Grid RowDefinitions="*" ColumnDefinitions="*,*">
-                        <Border Stroke="white"
-                                StrokeThickness="2"
-                                StrokeShape="RoundRectangle 0,0,0,0"
-                                Background="white"
-                                MinimumHeightRequest="200" MaximumHeightRequest="200" >
+                        StrokeThickness="4"
+                        StrokeShape="RoundRectangle 10,10,10,10" Padding="-5,0,15,0">
+                    <Grid RowDefinitions="Auto" ColumnDefinitions="*,*">
+                        <Border MinimumHeightRequest="200" MaximumHeightRequest="200" >
                             <Image>
                                 <Image.Source>
                                     <UriImageSource Uri="https://i.ebayimg.com/images/g/a2wAAOxyP4dTeYQ7/s-l1600.jpg"
-                        CacheValidity="10:00:00:00" />
+                                        CacheValidity="10:00:00:00" />
                                 </Image.Source>
                             </Image>
                         </Border>
@@ -59,24 +54,69 @@
                             <Label Text="Spider-Man" FontAttributes="Bold" FontSize="Header" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
                             <BoxView Color="Black" HeightRequest="2" HorizontalOptions="Fill" />
                             <Label Text="Action, Adventure" FontAttributes="Bold" FontSize="Small" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
-                            <Border Stroke="black"
-                                StrokeThickness="2"
+                            <BoxView Color="Black" HeightRequest="2" HorizontalOptions="Fill" />
+                            <Border
                                 StrokeShape="RoundRectangle 10,10,10,10"
-                                Background="#8bd6f2" VerticalOptions="End" >
-                                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="*,Auto">
-                                    <Label Text="Movie Info Details Details Details Details Details Details Details Details Details Details Details Details" Grid.Row="0" Grid.ColumnSpan="2"/>
-                                    <Button Text="Liked" ImageSource="like.png" Grid.Row="1" Grid.Column="0" ContentLayout="Top" BorderColor="#8bd6f2" BorderWidth="2" FontAttributes="Bold,Italic"  BackgroundColor="#8BD6F2" TextColor="#000000" />
-                                    <Button Text="Dislike" ImageSource="showlove.png" Grid.Row="1" Grid.Column="1"  ContentLayout="Top"  BorderColor="#8bd6f2" BorderWidth="2" FontAttributes="Bold,Italic"  BackgroundColor="#8BD6F2" TextColor="#000000" />
+                                Background="#8bd6f2"  >
+                                <Grid RowDefinitions="Auto,Auto,10,Auto,Auto" ColumnDefinitions="*,Auto">
+                                    <Label Text="Directors" Grid.Row="0" Grid.ColumnSpan="2"/>
+                                    <Label Text="Person one" Grid.Row="1" Grid.ColumnSpan="2" HorizontalOptions="End"/>
+                                    <BoxView Color="Black" Grid.Row="2" HeightRequest="2" HorizontalOptions="Fill" />
+                                    <Label Text="Stars" Grid.Row="3" Grid.ColumnSpan="2"/>
+                                    <Label Text="Star one" Grid.Row="4" Grid.ColumnSpan="2" HorizontalOptions="End"/>
                                 </Grid>
                             </Border>
-                            <!--<Label Text="Released 03 may 2022" FontAttributes="Bold" FontSize="Small" Grid.ColumnSpan="2" HorizontalOptions="Center"/>-->
+
+                            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="*,*" BackgroundColor="#8bd6f2">
+                                <Button Text="Liked" ImageSource="like.png" Grid.Row="0" Grid.Column="0" BackgroundColor="#8bd6f2" HorizontalOptions="Start" ContentLayout="Top" BorderWidth="0" FontAttributes="Bold,Italic"  TextColor="#000000" />
+                                <Button Text="Dislike" ImageSource="showlove.png" Grid.Row="0" Grid.Column="1" BackgroundColor="#8bd6f2" HorizontalOptions="Start" ContentLayout="Top"  BorderWidth="0" FontAttributes="Bold,Italic"  TextColor="#000000" />
+                            </Grid>
+
+                            <Label Text="Released 03 may 2022" FontAttributes="Bold" FontSize="Small" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
                         </VerticalStackLayout>
                     </Grid>
                 </Border>
+                <Label Text="FOR the most wild, yet most homely narrative which I am about to pen, I neither expect nor solicit belief. Mad indeed would I be to expect it, in a case where my very senses reject their own evidence. Yet, mad am I not -- and very surely do I not dream. But to-morrow I die, and to-day I would unburthen my soul. My immediate purpose is to place before the world, plainly, succinctly, and without comment, a series of mere household events. In their consequences, these events have terrified -- have tortured -- have destroyed me. Yet I will not attempt to expound them. To me, they have presented little but Horror -- to many they will seem less terrible than barroques. Hereafter, perhaps, some intellect may be found which will reduce my phantasm to the common-place -- some intellect more calm, more logical, and far less excitable than my own, which will perceive, in the circumstances I detail with awe, nothing more than an ordinary succession of very natural causes and effects." />
+                <Label Text="FOR the most wild, yet most homely narrative which I am about to pen, I neither expect nor solicit belief. Mad indeed would I be to expect it, in a case where my very senses reject their own evidence. Yet, mad am I not -- and very surely do I not dream. But to-morrow I die, and to-day I would unburthen my soul. My immediate purpose is to place before the world, plainly, succinctly, and without comment, a series of mere household events. In their consequences, these events have terrified -- have tortured -- have destroyed me. Yet I will not attempt to expound them. To me, they have presented little but Horror -- to many they will seem less terrible than barroques. Hereafter, perhaps, some intellect may be found which will reduce my phantasm to the common-place -- some intellect more calm, more logical, and far less excitable than my own, which will perceive, in the circumstances I detail with awe, nothing more than an ordinary succession of very natural causes and effects." />
+                <Label Text="FOR the most wild, yet most homely narrative which I am about to pen, I neither expect nor solicit belief. Mad indeed would I be to expect it, in a case where my very senses reject their own evidence. Yet, mad am I not -- and very surely do I not dream. But to-morrow I die, and to-day I would unburthen my soul. My immediate purpose is to place before the world, plainly, succinctly, and without comment, a series of mere household events. In their consequences, these events have terrified -- have tortured -- have destroyed me. Yet I will not attempt to expound them. To me, they have presented little but Horror -- to many they will seem less terrible than barroques. Hereafter, perhaps, some intellect may be found which will reduce my phantasm to the common-place -- some intellect more calm, more logical, and far less excitable than my own, which will perceive, in the circumstances I detail with awe, nothing more than an ordinary succession of very natural causes and effects." />
+
             </StackLayout>
         </ScrollView>
+        <Button Grid.Row="2"
+                Text="Genre" />
     </Grid>
 
 </ContentPage>
 
 
+<!--<Border Stroke="black"
+                    StrokeThickness="4"
+                    StrokeShape="RoundRectangle 0,0,0,0"
+                    Background="pink" Padding="16,8">
+    <Grid RowDefinitions="*" ColumnDefinitions="*,*">
+        <Border MinimumHeightRequest="200" MaximumHeightRequest="200" >
+            <Image>
+                <Image.Source>
+                    <UriImageSource Uri="https://i.ebayimg.com/images/g/a2wAAOxyP4dTeYQ7/s-l1600.jpg"
+                                        CacheValidity="10:00:00:00" />
+                </Image.Source>
+            </Image>
+        </Border>
+        <VerticalStackLayout Grid.Column="1">
+            <Label Text="Spider-Man" FontAttributes="Bold" FontSize="Header" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
+            <BoxView Color="Black" HeightRequest="2" HorizontalOptions="Fill" />
+            <Label Text="Action, Adventure" FontAttributes="Bold" FontSize="Small" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
+            <Border Stroke="black"
+                                StrokeThickness="2"
+                                StrokeShape="RoundRectangle 10,10,10,10"
+                                Background="#8bd6f2" VerticalOptions="End" >
+                <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="*,Auto">
+                    <Label Text="Movie Info Details Details Details Details Details Details Details Details Details Details Details Details" Grid.Row="0" Grid.ColumnSpan="2"/>
+                    <Button Text="Liked" ImageSource="like.png" Grid.Row="1" Grid.Column="0" ContentLayout="Top" BorderColor="#8bd6f2" BorderWidth="2" FontAttributes="Bold,Italic"  BackgroundColor="#8BD6F2" TextColor="#000000" />
+                    <Button Text="Dislike" ImageSource="showlove.png" Grid.Row="1" Grid.Column="1"  ContentLayout="Top"  BorderColor="#8bd6f2" BorderWidth="2" FontAttributes="Bold,Italic"  BackgroundColor="#8BD6F2" TextColor="#000000" />
+                </Grid>
+            </Border>
+            <Label Text="Released 03 may 2022" FontAttributes="Bold" FontSize="Small" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
+        </VerticalStackLayout>
+    </Grid>
+</Border>-->
